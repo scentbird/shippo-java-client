@@ -20,18 +20,18 @@ public class Address extends APIResource {
 	String objectOwner;
 	Object objectCreated;
 	Object objectUpdated;
-    Object name;
-    Object company;
-    Object street1;
-    Object streetNo;
-    Object street2;
-    Object city;
-    Object state;
-    Object zip;
-    Object country;
-    Object phone;
-    Object email;
-    Object is_residential;
+	String name;
+	String company;
+	String street1;
+	String streetNo;
+	String street2;
+	String city;
+	String state;
+	String zip;
+	String country;
+	String phone;
+	String email;
+    Boolean is_residential;
     Object metadata;
     Object messages;
 	ValidationResults validation_results;
@@ -157,93 +157,93 @@ public class Address extends APIResource {
 		return name;
 	}
 
-	public void setName(Object name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
-	public Object getCompany() {
+	public String getCompany() {
 		return company;
 	}
 
-	public void setCompany(Object company) {
+	public void setCompany(String company) {
 		this.company = company;
 	}
 
-	public Object getStreet1() {
+	public String getStreet1() {
 		return street1;
 	}
 
-	public void setStreet1(Object street1) {
+	public void setStreet1(String street1) {
 		this.street1 = street1;
 	}
 
-	public Object getStreetNo() {
+	public String getStreetNo() {
 		return streetNo;
 	}
 
-	public void setStreetNo(Object streetNo) {
+	public void setStreetNo(String streetNo) {
 		this.streetNo = streetNo;
 	}
 
-	public Object getStreet2() {
+	public String getStreet2() {
 		return street2;
 	}
 
-	public void setStreet2(Object street2) {
+	public void setStreet2(String street2) {
 		this.street2 = street2;
 	}
 
-	public Object getCity() {
+	public String getCity() {
 		return city;
 	}
 
-	public void setCity(Object city) {
+	public void setCity(String city) {
 		this.city = city;
 	}
 
-	public Object getState() {
+	public String getState() {
 		return state;
 	}
 
-	public void setState(Object state) {
+	public void setState(String state) {
 		this.state = state;
 	}
 
-	public Object getZip() {
+	public String getZip() {
 		return zip;
 	}
 
-	public void setZip(Object zip) {
+	public void setZip(String zip) {
 		this.zip = zip;
 	}
 
-	public Object getCountry() {
+	public String getCountry() {
 		return country;
 	}
 
-	public void setCountry(Object country) {
+	public void setCountry(String country) {
 		this.country = country;
 	}
 
-	public Object getPhone() {
+	public String getPhone() {
 		return phone;
 	}
 
-	public void setPhone(Object phone) {
+	public void setPhone(String phone) {
 		this.phone = phone;
 	}
 
-	public Object getEmail() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmail(Object email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 
-	public Object getIs_Residential() { return is_residential; }
+	public Boolean getIs_Residential() { return is_residential; }
 
-	public void setIs_Residential(Object is_residential) { this.is_residential = is_residential; }
+	public void setIs_Residential(Boolean is_residential) { this.is_residential = is_residential; }
 
 	public Object getMetadata() {
 		return metadata;
