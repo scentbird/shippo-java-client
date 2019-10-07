@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/goshippo/shippo-java-client.svg?branch=master)](https://travis-ci.org/goshippo/shippo-java-client)
+[![CircleCI](https://circleci.com/gh/goshippo/shippo-java-client/tree/master.svg?style=svg)](https://circleci.com/gh/goshippo/shippo-java-client/tree/master)
 
 # Shippo Java API wrapper
 
@@ -24,7 +24,7 @@ Add this dependency to your project's POM:
     <dependency>
         <groupId>com.goshippo</groupId>
         <artifactId>shippo-java-client</artifactId>
-        <version>1.3.1</version>
+        <version>2.1.2</version>
     </dependency>
 ```
 
